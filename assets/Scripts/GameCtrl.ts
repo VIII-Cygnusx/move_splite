@@ -3,8 +3,8 @@ const { ccclass, property } = _decorator;
 
 import { Card } from './Card'
 import { Card_Pool } from './Card_Pool';
-import { DragZone } from './DragZone';
-import { DragZone_Pool } from './DragZone_Pool';
+
+
 
 @ccclass('GameCtrl')
 export class GameCtrl extends Component {
