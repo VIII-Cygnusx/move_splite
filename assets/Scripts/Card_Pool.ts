@@ -37,9 +37,9 @@ export class Card_Pool extends Component {
             return;
         }
 
-        // 定义扑克牌数据（示例：10 点数 × 6 花色）
-        const ranks = [1, 2, 3, 4, 5, 5, 4, 3, 2, 1];
-        const suits = ['A', 'B', 'C','C', 'B','A'];
+        // 定义扑克牌数据（示例：8 点数 × 4 花色）
+        const ranks = [1, 2, 3, 4, 4, 3, 2, 1];
+        const suits = ['A', 'B', 'B','A'];
 
         let index = 0;
         for (const suit of suits) 
